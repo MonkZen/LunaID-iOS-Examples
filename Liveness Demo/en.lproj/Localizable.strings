@@ -1,0 +1,8 @@
+/****************************************************************************/
+/* Localization file */
+
+
+"common.liveness_check_passed" = "Liveness check passed";
+"common.error_title" = "Error";
+"common.open_app_settings" = "Open settings";
+"errors.unknown" = "Unknown error";

@@ -1,0 +1,31 @@
+
+/* Class = "UIButton"; normalTitle = "SETTINGS"; ObjectID = "3rz-3N-ini"; */
+"3rz-3N-ini.normalTitle" = "SETTINGS";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "7QD-ea-Hub"; */
+"7QD-ea-Hub.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Liveness Demo"; ObjectID = "dlh-xA-0Mg"; */
+"dlh-xA-0Mg.text" = "Liveness Demo";
+
+/* Class = "UIButton"; normalTitle = "LIVENESS CHECK"; ObjectID = "ezy-jA-QKU"; */
+"ezy-jA-QKU.normalTitle" = "ПРОВЕРИТЬ LIVENESS";
+
+/* Class = "UILabel"; text = "For correct face recognition required:\n\n1. Well-lit, your face should be clearly visible in the camera image.\n\n2. Look at the camera, place your face in the center of the screen.\n\n3. Make sure that there are no other people or pictures of people around you."; ObjectID = "jsf-JP-rVd"; */
+"jsf-JP-rVd.text" = "Рекомендации:
+
+1. Лицо должно быть повёрнуто к камере. Голова не должна быть наклонена или повёрнута.
+
+2. Лицо должно быть хорошо освещено и не должно быть перекрыто посторонними предметами.
+
+3. Лицо должно находиться в центре экрана в пределах его границ.
+
+4. Лицо не должно находиться слишком далеко от камеры.
+
+5. В кадре должно быть одно лицо. На заднем плане не должно быть других людей или фотографий людей.";
+
+
+/*"Для корректного распознавания лица необходимо:\n\n1. Хорошее освещение. Ваше лицо должно быть отчетливо видно на изображении с камеры.\n\n2. Смотрите в камеру, поместите лицо в центр экрана.\n\n3. Убедитесь, что рядом с вами нет других людей или изображений людей.";*/
+
+/* Class = "UIButton"; normalTitle = "NEW USER"; ObjectID = "wzS-eI-oi3"; */
+"wzS-eI-oi3.normalTitle" = "NEW USER";

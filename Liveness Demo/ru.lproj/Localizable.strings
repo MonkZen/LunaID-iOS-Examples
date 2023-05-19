@@ -1,0 +1,8 @@
+/****************************************************************************/
+/* Localization file */
+
+
+"common.liveness_check_passed" = "Проверка Liveness пройдена успешно.";
+"common.error_title" = "Ошибка";
+"common.open_app_settings" = "Перейти в настройки";
+"errors.unknown" = "Неизвестная ошибка";
