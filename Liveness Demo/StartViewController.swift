@@ -112,7 +112,7 @@ extension StartViewController: LMCameraDelegate {
 
     func error(error: LMCameraError) {
         DispatchQueue.main.async {
-            if case CameraError.accessStatus = error {
+            if case LMCameraError.accessStatus = error {
                 let action = AlertAction(title: "common.open_app_settings".localized()) {
                     UIApplication.openAppSettings()
                 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C81FCDD2A1797360063BA47 /* LunaExampleOCR-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C81FCDC2A1797360063BA47 /* LunaExampleOCR-Info.plist */; };
 		4CEC818D2A0BB02800757AD2 /* fsdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEC81832A0BB02700757AD2 /* fsdk.xcframework */; };
 		4CEC818E2A0BB02800757AD2 /* fsdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEC81832A0BB02700757AD2 /* fsdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4CEC818F2A0BB02800757AD2 /* RegulaCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEC81842A0BB02700757AD2 /* RegulaCommon.xcframework */; };
@@ -94,6 +95,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C81FCDC2A1797360063BA47 /* LunaExampleOCR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "LunaExampleOCR-Info.plist"; sourceTree = SOURCE_ROOT; };
 		4CEC81832A0BB02700757AD2 /* fsdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = fsdk.xcframework; path = frameworks/fsdk.xcframework; sourceTree = "<group>"; };
 		4CEC81842A0BB02700757AD2 /* RegulaCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RegulaCommon.xcframework; path = frameworks/RegulaCommon.xcframework; sourceTree = "<group>"; };
 		4CEC81852A0BB02800757AD2 /* tsdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = tsdk.xcframework; path = frameworks/tsdk.xcframework; sourceTree = "<group>"; };
@@ -104,7 +106,6 @@
 		4CEC818A2A0BB02800757AD2 /* DocumentReader.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DocumentReader.xcframework; path = frameworks/DocumentReader.xcframework; sourceTree = "<group>"; };
 		4CEC818B2A0BB02800757AD2 /* LunaCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LunaCore.xcframework; path = frameworks/LunaCore.xcframework; sourceTree = "<group>"; };
 		4CEC818C2A0BB02800757AD2 /* LunaAuthOCR.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LunaAuthOCR.xcframework; path = frameworks/LunaAuthOCR.xcframework; sourceTree = "<group>"; };
-		4CEC81AD2A0BB73500757AD2 /* LunaAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LunaAuth.xcframework; path = frameworks/LunaAuth.xcframework; sourceTree = "<group>"; };
 		4CEC81B42A0BB7E200757AD2 /* ServerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerMock.swift; sourceTree = "<group>"; };
 		4CF028ED2A0CFC13002CDD7E /* OCR.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OCR.xcframework; path = frameworks/OCR.xcframework; sourceTree = "<group>"; };
 		4CF028EE2A0CFC13002CDD7E /* OCRREGULA.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OCRREGULA.xcframework; path = frameworks/OCRREGULA.xcframework; sourceTree = "<group>"; };
@@ -148,7 +149,6 @@
 		DE648A64299BF0AD00BAE63D /* SettingsLivenessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLivenessCell.swift; sourceTree = "<group>"; };
 		DE648A65299BF0AD00BAE63D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		DEB8229229AF3F62002C4C4B /* LunaExampleOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunaExampleOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEB8229329AF3F62002C4C4B /* LunaExampleOCR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LunaExampleOCR-Info.plist"; path = "/Users/michael/Development/DEMOS/LunaExampleOCR/LunaExampleOCR-Info.plist"; sourceTree = "<absolute>"; };
 		DED402F0299932F900847BBE /* ExampleUICustomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUICustomizer.swift; sourceTree = "<group>"; };
 		DEDE8C1929C233D5006FFF7F /* AuthOCRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthOCRViewController.swift; sourceTree = "<group>"; };
 		DEDE8C1B29C2CCE0006FFF7F /* UIApplication+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Ext.swift"; sourceTree = "<group>"; };
@@ -198,6 +198,7 @@
 		7E2B1DFB25419E5F00DE728E /* LunaExample */ = {
 			isa = PBXGroup;
 			children = (
+				4C81FCDC2A1797360063BA47 /* LunaExampleOCR-Info.plist */,
 				4CEC81B32A0BB7E200757AD2 /* ServerStub */,
 				7ED2A5B92546D0B4004E3CA7 /* UserStories */,
 				7ED2A5692546C0C7004E3CA7 /* Helpers */,
@@ -207,7 +208,6 @@
 				7E2B1E0725419E6100DE728E /* LaunchScreen.storyboard */,
 				7ED2A5902546C340004E3CA7 /* EtelkaMediumProRegular.ttf */,
 				7ECA7DC6254ACCE5001F89EA /* Localizable.strings */,
-				DEB8229329AF3F62002C4C4B /* LunaExampleOCR-Info.plist */,
 				7ED5A7A0267CB8940090F5CF /* regula.license */,
 				7E039118256525F300453D52 /* InfoPlist.strings */,
 			);
@@ -236,7 +236,6 @@
 			children = (
 				4CF028ED2A0CFC13002CDD7E /* OCR.xcframework */,
 				4CF028EE2A0CFC13002CDD7E /* OCRREGULA.xcframework */,
-				4CEC81AD2A0BB73500757AD2 /* LunaAuth.xcframework */,
 				4CEC818A2A0BB02800757AD2 /* DocumentReader.xcframework */,
 				4CEC81862A0BB02800757AD2 /* DocumentReaderCore.xcframework */,
 				4CEC81872A0BB02800757AD2 /* flower.xcframework */,
@@ -408,6 +407,7 @@
 				DEB8227A29AF3F62002C4C4B /* regula.license in Resources */,
 				DEB8227B29AF3F62002C4C4B /* InfoPlist.strings in Resources */,
 				DEB8227C29AF3F62002C4C4B /* EtelkaMediumProRegular.ttf in Resources */,
+				4C81FCDD2A1797360063BA47 /* LunaExampleOCR-Info.plist in Resources */,
 				DEB8227D29AF3F62002C4C4B /* LaunchScreen.storyboard in Resources */,
 				DEB8227E29AF3F62002C4C4B /* Assets.xcassets in Resources */,
 				DEB8227F29AF3F62002C4C4B /* Main.storyboard in Resources */,
